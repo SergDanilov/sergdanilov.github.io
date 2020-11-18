@@ -1,0 +1,331 @@
+@media  ( max-width: 1200px )
+    header
+        nav
+            .menu
+                .menu_item
+                    padding-right: 20px
+                    .menu_link
+                        font-size: 13px
+    .promo
+        .promo_header
+            font-size: 40px
+        &_subheader 
+            font-size: 30px
+    .reasons
+        &_block
+            align-items: flex-start
+            &_descr
+                width: 300px
+    .mobile
+        &_item
+            width: 300px
+            height: 250px
+            margin-right: 15px
+            &_subtitle
+                font-size: 20px
+                line-height: 28px
+                padding: 0 5px
+    .footer
+        position: relative
+        .social
+            position: absolute
+            top: 160px
+            left: 50%
+            transform: translateX(-140px) 
+        .apply_store
+            position: absolute
+            top: 210px
+            right: 50%
+            transform: translateX(175px) 
+
+
+@media (max-width: 991px)
+    header
+        nav
+            .menu
+                .menu_item
+                    padding-right: 8px
+                    .menu_link
+                        font-size: 10px
+    header
+        .subheader
+                .subheader_logo
+                    img
+                        width: 100%
+                &_official
+                    font-size: 11px
+                &_btn
+                    width: 100%
+                    height: 40px
+                    margin-top: 20px
+                    
+    .promo
+        .promo_header
+            font-size: 30px
+            line-height: 30px
+        &_subheader 
+            font-size: 25px
+        &_descr
+            font-size: 15px
+        
+    .reasons
+        padding: 25px 0 35px 0
+        &_block
+            align-items: center
+            flex-direction: column
+            &_descr
+                margin-top: 15px
+        .title
+            font-size: 30px 
+    .mobile
+        &_item
+            width: 230px
+            height: 211px
+            &_subtitle
+                font-size: 16px
+                line-height: 20px
+
+    
+
+
+@media (max-width: 767px)
+    header
+        nav
+            .menu
+                position: fixed
+                flex-direction: column
+                justify-content: center
+                align-items: start
+                top: 0
+                left: -100% 
+                width: 50%
+                height: 100vh
+                padding: 20px 20px
+                background: rgba(0,0,0, .8)
+                transition: .6s all
+                &_active
+                    left: 0
+                .menu_item
+                    padding-right: 15px
+                    border: none
+                    margin: 15px 0
+                    .menu_link
+                        font-size: 18px
+            .hamburger
+                display: block
+                position: absolute
+                right: 10px
+                top: 50%
+                transform: translateY(-50%)
+                width: 28px
+                height: 13px
+                span
+                    display: block
+                    height: 2px
+                    width: 100%
+                    background: #fff
+                    margin-bottom: 2px
+                    transition: 0.5s all
+                &_active
+                    span
+                        margin-bottom: -2px 
+                        &:nth-child(1)
+                            transform: rotate(-45deg)
+                        &:nth-child(2)
+                            display: none
+                        &:nth-child(3)
+                            transform: rotate(45deg)
+    .subheader
+        .xs-hidden
+            display: none
+        .xs-visible
+            display: block
+        .subheader_phone
+            display: block
+            margin-top: 10px
+            color: #ffffff
+            font-size: 18px
+            text-align: center
+            text-transform: uppercase
+            font-weight: 400
+        .subheader_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        .promo_header
+            font-size: 26px
+            line-height: 28px
+    .reasons
+        padding: 35px 0 45px 0
+        .title
+            font-size: 26px
+        &_block
+            margin-top: 35px
+            &_round
+                margin-right: 0
+                margin-bottom: 25px
+    .opportunity_bg_car
+            width: 100%
+            max-height: 300px
+            background: url(../img/Avto_bg.png) center center/contain no-repeat
+    .conditions_and_requirements
+        padding: 25px 0 25px 0
+        min-height: 300px
+        .title
+            font-size: 30px
+        .conditions_title_red
+            margin-top: 33px
+    .mobile
+        padding: 25px 0 25px 0
+        &_item
+            margin: 10px auto
+            width: 320px
+            height: 280px
+            &_subtitle
+                font-size: 26px
+                line-height: 32px
+        .title
+            font-size: 30px
+    
+    .opportunity
+        padding: 25px 0 0px 0
+        min-height: 300px
+        .title
+            font-size: 30px
+        .subtitle
+            display: none
+        .opportunity_bg_car
+            top: 190px
+            width: 100%
+    .opportunity_down
+        min-height: 300px
+        &_subtitle
+            margin-bottom: 50px
+
+
+
+@media (max-width: 576px)
+    header
+        nav
+            .menu
+                width: 85%
+                .menu_item
+                    padding-right: 10px
+                    border: none
+                    margin: 20px 0
+                    display: block
+                    .menu_link
+                        font-size: 13px
+                        text-transform: uppercase
+                        padding: 15px 20px 15px 10px
+    .subheader
+        height: 70px
+        &_official
+            display: none
+        &_logo
+            margin-top: 26px
+        .subheader_phone
+            display: block
+            margin-top: 5px
+            color: #ffffff
+            font-size: 14px
+            text-align: center
+            text-transform: uppercase
+            font-weight: 400
+            margin-top: 11px
+        .subheader_btn
+            display: block
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        min-height: 400px
+        padding: 130px 0 35px 0
+        .promo_header
+            font-size: 36px
+            line-height: 47px
+            padding: 0 20px
+        &_subheader
+            font-size: 24px
+            margin-top: 32px
+        &_descr
+            display: none
+        &_btn
+            width: 230px
+            height: 50px
+    .reasons
+        padding: 25px 0 35px 0
+        .title
+            font-size: 16px
+        &_block
+            margin-top: 26px
+            &_round
+                background:  #000000
+                margin-right: 0
+            &_descr
+                width: 100%
+                padding: 0 20px
+                margin-top: 0
+                .reasons_subtitle
+                    margin: 15px 0 10px 0
+                .reasons_text
+                    text-align: justify
+
+    .mobile
+        padding: 25px 0 25px 0
+        .title
+            font-size: 16px
+            font-weight: 700
+            margin: 10px 0 10px 0
+        .mobile_item
+            display: block
+            margin: 10px auto
+            width: 90%
+    .opportunity
+        padding: 25px 0 25px 0
+        min-height: 250px
+        .title
+            display: block
+            font-size: 24px
+            margin-top: 50px
+        .subtitle
+            display: none
+        .opportunity_bg_car
+            top: 175px
+            width: 100%
+            max-height: 300px
+            background: url(../img/Avto_bg.png) center center/contain no-repeat
+    .conditions_and_requirements
+        padding: 25px 0 25px 0
+        min-height: 300px
+        .title
+            font-size: 24px
+        .conditions_title_red
+            margin-top: 33px
+    .map
+        min-height: 500px
+        .wrapper
+            .title
+                font-size: 30px
+                margin-top: 28px
+            .subtitle
+                display: none
+            .map_downtitle
+                margin-top: 300px
+@media (max-width: 400px)
+    .footer
+        .menu_footer
+            .menu_item
+                .menu_link
+                    font-size: 10px
+        .submenu_footer
+            .menu_item
+                .menu_link
+                    display: none
+        .language
+            margin-top: 50px
